@@ -1,12 +1,10 @@
 # Chad Shared Types
 
-Shared TypeScript types for Chad webapp and admin panel.
+Shared TypeScript types for CHAD
 
 ## Installation
 
 ```bash
-# Create or edit .npmrc in your project root
-echo "@thatalexay:registry=https://npm.pkg.github.com" >> .npmrc
 
 # Install the package
 npm install @that/chad-types
@@ -15,7 +13,7 @@ npm install @that/chad-types
 ## Usage
 
 ```typescript
-import { Chatroom, ChatMessage } from '@thatalexay/chad-types';
+import { Chatroom, ChatMessage } from '@chitchad/chad-types';
 
 // Use the types in your code
 const chatroom: Chatroom = {
